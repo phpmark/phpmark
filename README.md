@@ -1,2 +1,2 @@
-# phpmark
-Benchmark a PHP hosting
+# PHPMark
+Benchmark tool for PHP hosting
