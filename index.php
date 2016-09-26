@@ -263,7 +263,7 @@ final class PHPMark
 	private static function test_PHP_String_Manipulation()
 	{
 		foreach (self::$aStringFunctions as $function) {
-			call_user_func_array($function, array(SELF::S_TEST_STRING_BENCHMARK));
+			call_user_func_array($function, array(self::S_TEST_STRING_BENCHMARK));
 			self::$iScore++;
 		}
 		self::$iScore--;
